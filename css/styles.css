@@ -2,7 +2,7 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: powderblue;
+  background:#2aa7c9;
   font-family: 'Mouse Memoirs', sans-serif;
 }
 
@@ -64,6 +64,15 @@ h3 {
   font-size: 30px;
 
 }
+
+h1 span:nth-child(odd) {
+  color:#f91a10;
+
+}
+
+h3 span:nth-child(even) {
+  color:#f91a10;
+}
 /***********
 ASIDE
 ************/
@@ -90,7 +99,7 @@ div.Links {
 
 }
 a:hover {
-  color: orangered;
+  color: #f91a10;
   text-decoration: none;
 }
 
@@ -108,7 +117,7 @@ video {
 }
 
 .mejs__time-current {
-  background: orangered;
+  background: #f91a10;
 }
 
 /************

@@ -69,4 +69,7 @@
 		return this;
 	};
 
+	$('h1').lettering();
+	$('h3').lettering();
+
 })(jQuery);
