@@ -3,11 +3,9 @@
 */
 body {
   background: powderblue;
+  font-family: 'Mouse Memoirs', sans-serif;
 }
 
-* {
-  outline: 1px dotted black;
-}
 
 /************
 LAYOUT
@@ -38,12 +36,63 @@ aside {
   grid-column: span 2;
 }
 
+/* Your Styles */
 
 /************
 HEADER
 ************/
-/* Your Styles */
 
+header {
+  border: #FBF50B;
+  padding: 5px;
+  border-style: dotted;
+  border-width: 5px;
+  
+}
+h1, h3 {
+  text-align: center;
+  letter-spacing: 2px;
+
+}
+
+h1 {
+  font-size: 40px;
+
+}
+
+h3 {
+  font-size: 30px;
+
+}
+/***********
+ASIDE
+************/
+h2 {
+  border: #FBF50B;
+  padding: 5px;
+  border-style: dotted;
+  border-width: 5px;
+  text-align: center;
+
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+div.Links {
+  border: #FBF50B;
+  padding: 1-px;
+  border-style: dotted;
+  border-width: 5px;
+
+
+}
+a:hover {
+  color: orangered;
+  text-decoration: none;
+}
 
 /************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
@@ -59,7 +108,7 @@ video {
 }
 
 .mejs__time-current {
-  background: tomato;
+  background: orangered;
 }
 
 /************
@@ -69,8 +118,19 @@ main section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+  font-size: 20px;
+
 }
 
+img.Actor {
+  width: 100px;
+  height: 150px;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: #FBF50B; 
+ 
+}
 /************
 FOOTER
 ************/
